@@ -1,0 +1,141 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+header
+{
+    background-color: #F2F2F2;
+    height: 23vh;
+}
+
+h1
+{
+    padding: 10px;
+    margin: 10px;
+    justify-content: flex-start;
+}
+
+.title1
+{
+    color: #20a8b4;
+}
+
+.title2
+{
+    color: #ff5c0f;
+}
+
+.nav
+{
+    justify-content: space-between;
+}
+
+ul
+{
+    flex-direction: column;
+    float: right;
+    display: flex;
+} 
+
+.nav li
+{
+    display: flex;
+    display: inline-block;
+}
+
+.nav li a
+{
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+ul li a:hover
+{
+    color: #ff5c0f;
+}
+
+.logo
+{
+    width: 500px;
+    float: right;
+    padding: 40px;
+    display: none;
+}
+
+.body
+{
+    position: absolute;
+    top: 50%;
+    font-size: 25px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+h4
+{
+    margin-left: 20px;
+    height: 20px;
+}
+
+.title3
+{
+    color: #000;
+}
+
+.title4
+{
+    color: #ff5c0f;
+}
+
+h3
+{
+    margin-left: 20px;
+    height: 70px;
+    font-size: 15px;
+}
+
+button
+{
+    background-color: #20a8b4;
+    border-radius: 7px;
+    width: 100%;
+    margin-left: 20px;
+    top: 50%;
+}
+
+button:hover
+{
+    background-color: #ff5c0f;
+}
+
+@media only screen and (min width: 768px) {
+    ul {
+        flex-direction: row;
+    }
+
+    li {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: auto;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .body {
+        align-items: flex-end;
+    }
+
+    button {
+        width: auto;
+    }
+}
